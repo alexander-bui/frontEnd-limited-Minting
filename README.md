@@ -1,7 +1,7 @@
 # Limited Minting Button
 Allows server to set limited runs via GET /data/db.json
 
-When client clicks Button, server PUT and increments values.
+When client clicks Button, server PUT and increments values to db.json.
 
 Once max is reached, alert client that minting is no longer available.
 
