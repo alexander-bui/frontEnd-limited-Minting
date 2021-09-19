@@ -1,3 +1,20 @@
+# Limited Minting Button
+Allows server to set limited runs via GET /data/db.json
+
+When client clicks Button, server PUT and increments values.
+
+Once max is reached, alert client that minting is no longer available.
+
+## How to Setup / Deploy
+
+Run npm install to setup application.
+
+1. Run server :  json-server --watch data/db.json --port 8000
+2. Configure db.json to whatever values
+3. Start frontend : npm start
+
+======
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
